@@ -1,0 +1,118 @@
+<!-- Noah Bichsel -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+      body {
+        font-family: 'Quicksand', sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+
+    <title>Renewable Engergy</title>
+
+    <script type="importmap">
+			{
+				"imports": {
+					"three": "https://cdn.jsdelivr.net/npm/three@0.161.0/build/three.module.js",
+          "jsm/": "https://cdn.jsdelivr.net/npm/three@0.161.0/examples/jsm/"
+        }
+			}
+		</script>
+  </head>
+  <body>
+    <h1>Renewable Engergy</h1>
+
+    <div class="intro">
+      <p1>Renewable energy is energy that comes from natural sources which are constantly replenished, such as sunlight, wind, water, and heat from the Earth. Unlike fossil fuels, which release greenhouse gases and are limited in supply, renewable energy provides a clean and sustainable way to power homes, businesses, and industries. It plays a key role in reducing climate change, improving energy security, and creating a healthier environment. By harnessing resources that nature continually provides, renewable energy is becoming one of the most important solutions for meeting the world’s growing energy needs in a sustainable way.</p1>
+    </div>
+    
+    <div class="windmill-layout">
+
+      <div id="Windmill"></div>
+
+      <div class="text-container">
+        <h2>Windmills</h2>
+        <p1>Windmills, or more accurately modern wind turbines, are an important source of renewable energy because they convert the kinetic energy of moving air into electricity without producing greenhouse gas emissions. When wind turns the turbine’s blades, the rotor spins a shaft connected to a generator that produces power, which is then sent to the electrical grid. Wind energy is sustainable, clean, and has low operating costs once turbines are installed, making it one of the fastest-growing renewable sources worldwide. However, it also faces challenges such as reliance on consistent wind, location limitations, and potential impacts on wildlife. Despite these issues, wind power is a key technology in reducing dependence on fossil fuels, cutting carbon emissions, and moving toward a sustainable energy future.</p1>
+      </div>
+    </div>
+
+    <div class="Water-Wheel">
+    <iframe 
+      title="two-story medieval house with water wheel" 
+      allowfullscreen 
+      mozallowfullscreen="true" 
+      webkitallowfullscreen="true" 
+      src="https://sketchfab.com/models/dd03035f6fb74ff3ba7650a30aa2a7cc/embed">
+    </iframe>
+    <div class="text-container">
+      <h2>Water Wheel</h2>
+      <p1>Water wheels are devices that harness the energy of flowing or falling water to perform work or generate electricity. Traditionally, they were used to grind grain, saw wood, or pump water, converting the kinetic energy of moving water into mechanical energy. In modern renewable energy applications, water wheels can drive small hydroelectric generators, producing clean electricity without emitting greenhouse gases. They are reliable and predictable, as rivers and streams generally provide a steady flow, and they have relatively low operating costs once installed. However, water wheels require suitable water sources and can impact aquatic ecosystems if not carefully designed. Overall, they represent a sustainable way to utilize natural water movement for energy, contributing to the transition away from fossil fuels.</p1>
+    </div>
+  </div>
+
+  <div class="Water-Wheel">
+    <iframe 
+      title="two-story medieval house with water wheel" 
+      allowfullscreen 
+      mozallowfullscreen="true" 
+      webkitallowfullscreen="true" 
+      src="https://sketchfab.com/models/bb49ffe079064a46986edafd067dd8e3/embed">
+    </iframe>
+    <div class="text-container">
+      <h2>Solar Panel</h2>
+      <p1>Solar panels (or photovoltaic panels) convert sunlight directly into electricity using semiconductor cells that free electrons when struck by photons, creating an electric current that can power homes, businesses, or feed the grid. They’re versatile — from small rooftop arrays to massive utility-scale solar farms — and produce clean, quiet power with very low operating costs after installation. Their main limitations are intermittency (no generation at night and reduced output on cloudy days) and the need for storage or grid integration to provide steady supply, while manufacturing and end-of-life recycling present environmental and material-sourcing challenges that industry improvements are addressing. Overall, solar panels are a cornerstone technology for decarbonizing energy systems and enabling distributed, renewable electricity generation.</p1>
+    </div>
+  </div>
+    
+    <script type="module" src="index.js"></script>
+
+    <!-- Styles -->
+
+    <style>
+    .windmill-layout {
+      display: flex;
+      align-items: center;
+      height: 50vh;
+      margin-top: 0;
+    }
+
+    .text-container {
+      flex: 1;
+      padding: 0px;
+      padding-left: 10px;
+    }
+
+    h1 {
+      font-size: 3rem;
+      color: #2e7d32;
+      margin: 0;
+      text-align: center;
+    }
+
+    .Water-Wheel iframe {
+      width: 400px;
+      height: 400px;
+      border: none;
+    }
+
+    .Water-Wheel {
+      display: flex;
+      align-items: center;
+      height: 50vh;
+      margin-top: 100px;
+    }
+
+    .intro {
+      padding: 10px 10px 10px 10px;
+    }
+
+  </style>
+  </body>
+</html>
